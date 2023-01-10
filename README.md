@@ -35,7 +35,7 @@ pip install ultralytics==8.0.0
 python yolo\v8\detect\detect_and_trk.py model=yolov8s.pt source="test.mp4" show=True
 
 #imagefile
-python yolo\v8\detect\detect_and_trk.py model=yolov8m.pt source="yolo\data\datasets\images\bus.jpg" model=yolov8m.pt
+python yolo\v8\detect\detect_and_trk.py model=yolov8m.pt source="path to image" model=yolov8m.pt
 
 #Webcam
 python yolo\v8\detect\detect_and_trk.py model=yolov8m.pt source=0 model=yolov8m.pt show=True
