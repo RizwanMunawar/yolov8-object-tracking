@@ -73,4 +73,6 @@ python yolo\v8\detect\detect_and_trk.py model=yolov8m.pt source=1 model=yolov8m.
 
 <a href= "https://www.linkedin.com/posts/muhammadrizwanmunawar_yolov8-aiinnovation-computervision-activity-7018504358329790465-qmde?utm_source=share&utm_medium=member_desktop">LinkedIn Post on YOLOv8 Release</a>
 
+Don't forget to check out my <a href= "https://muhammadrizwanmunawar.com/">Services</a>
+
 For more details, you can reach out to me on [Medium](https://chr043416.medium.com/) or can connect with me on [LinkedIn](https://www.linkedin.com/in/muhammadrizwanmunawar/)
