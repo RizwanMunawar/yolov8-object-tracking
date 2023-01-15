@@ -44,7 +44,7 @@ python yolo\v8\detect\detect_and_trk.py model=yolov8m.pt source=0 show=True
 python yolo\v8\detect\detect_and_trk.py model=yolov8m.pt source=1 show=True
 ```
 
-- Output file will be created in the working-dir/runs/detect/obj-tracking with original filename
+- Output file will be created in the working-dir/runs/detect/train with original filename
 
 
 ### Results
