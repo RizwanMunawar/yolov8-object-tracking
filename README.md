@@ -26,10 +26,6 @@ cd yolov8-object-tracking
 
 - Install the ultralytics package
 ```
-pip install ultralytics
-
-or
-
 pip install ultralytics==8.0.0
 ```
 
