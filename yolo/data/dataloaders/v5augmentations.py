@@ -12,10 +12,10 @@ import torch
 import torchvision.transforms as T
 import torchvision.transforms.functional as TF
 
-from ultralytics.yolo.utils import LOGGER, colorstr
-from ultralytics.yolo.utils.checks import check_version
-from ultralytics.yolo.utils.metrics import bbox_ioa
-from ultralytics.yolo.utils.ops import resample_segments, segment2box, xywhn2xyxy
+from yolo.utils import LOGGER, colorstr
+from yolo.utils.checks import check_version
+from yolo.utils.metrics import bbox_ioa
+from yolo.utils.ops import resample_segments, segment2box, xywhn2xyxy
 
 IMAGENET_MEAN = 0.485, 0.456, 0.406  # RGB mean
 IMAGENET_STD = 0.229, 0.224, 0.225  # RGB standard deviation

@@ -12,10 +12,10 @@ import cv2
 import numpy as np
 import torch
 
-from ultralytics.yolo.data.augment import LetterBox
-from ultralytics.yolo.data.utils import IMG_FORMATS, VID_FORMATS
-from ultralytics.yolo.utils import LOGGER, is_colab, is_kaggle, ops
-from ultralytics.yolo.utils.checks import check_requirements
+from yolo.data.augment import LetterBox
+from yolo.data.utils import IMG_FORMATS, VID_FORMATS
+from yolo.utils import LOGGER, is_colab, is_kaggle, ops
+from yolo.utils.checks import check_requirements
 
 
 class LoadStreams:

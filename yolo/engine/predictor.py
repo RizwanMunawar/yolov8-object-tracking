@@ -40,11 +40,12 @@ from yolo.utils.files import increment_path
 from yolo.utils.torch_utils import select_device, smart_inference_mode
 
 
+
 class BasePredictor:
     """
     BasePredictor
 
-    A base class for creating predictors.
+    A base class for cre    ating predictors.
 
     Attributes:
         args (OmegaConf): Configuration for the predictor.
@@ -68,7 +69,6 @@ class BasePredictor:
             config (str, optional): Path to a configuration file. Defaults to DEFAULT_CONFIG.
             overrides (dict, optional): Configuration overrides. Defaults to None.
         """
-        print("This is a tracker",tracker)
         if overrides is None:
             overrides = {}
         self.args = get_config(config, overrides)
@@ -100,7 +100,6 @@ class BasePredictor:
     def get_annotator(self, img):
         raise NotImplementedError("get_annotator function needs to be implemented")
 
-    def get_tracker(self,img):
         
     def write_results(self, pred, batch, print_string):
         raise NotImplementedError("print_results function needs to be implemented")
@@ -171,7 +170,7 @@ class BasePredictor:
         self.run_callbacks("on_predict_start")
         model= self.model if self.done_setup else self.setup(source, model)
         model.eval()
-        print(tracker)
+        # print(tracker)
         self.seen, self.windows, self.dt = 0, [], (ops.Profile(), ops.Profile(), ops.Profile())
         self.all_outputs = []
         for batch in self.dataset:
@@ -212,6 +211,7 @@ class BasePredictor:
         LOGGER.info(
             f'Speed: %.1fms pre-process, %.1fms inference, %.1fms postprocess per image at shape {(1, 3, *self.imgsz)}'
             % t)
+        
         if self.args.save_txt or self.args.save:
             s = f"\n{len(list(self.save_dir.glob('labels/*.txt')))} labels saved to {self.save_dir / 'labels'}" if self.args.save_txt else ''
             LOGGER.info(f"Results saved to {colorstr('bold', self.save_dir)}{s}")

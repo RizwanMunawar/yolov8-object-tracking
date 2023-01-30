@@ -23,7 +23,7 @@ class Colors:
     # Ultralytics color palette https://com/
     def __init__(self):
         # hex = matplotlib.colors.TABLEAU_COLORS.values()
-        hexs = ('FF3838', 'FF9D97', 'FF701F', 'FFB21D', 'CFD231', '48F90A', '92CC17', '3DDB86', '1A9334', '00D4BB',
+        hexs = ('7fff00', '7fff00', '7fff00', '7fff00', '7fff00', '7fff00', '7fff00', '7fff00', '1A9334', '00D4BB',
                 '2C99A8', '00C2FF', '344593', '6473FF', '0018EC', '8438FF', '520085', 'CB38FF', 'FF95C8', 'FF37C7')
         self.palette = [self.hex2rgb(f'#{c}') for c in hexs]
         self.n = len(self.palette)
@@ -71,7 +71,7 @@ class Annotator:
                 self.draw.text((box[0], box[1] - h if outside else box[1]), label, fill=txt_color, font=self.font)
         else:  # cv2
             p1, p2 = (int(box[0]), int(box[1])), (int(box[2]), int(box[3]))
-            cv2.rectangle(self.im, p1, p2, color, thickness=self.lw, lineType=cv2.LINE_AA)
+            cv2.rectangle(self.im, p1, p2, (0,255,127), thickness=self.lw, lineType=cv2.LINE_AA)
             if label:
                 tf = max(self.lw - 1, 1)  # font thickness
                 w, h = cv2.getTextSize(label, 0, fontScale=self.lw / 3, thickness=tf)[0]  # text width, height

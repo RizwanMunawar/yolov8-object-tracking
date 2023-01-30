@@ -19,7 +19,7 @@ def cli(cfg):
     Args:
         cfg (DictConfig): Configuration for the task and mode.
     """
-    # LOGGER.info(f"{colorstr(f'Ultralytics YOLO v{ultralytics.__version__}')}")
+    # LOGGER.info(f"{colorstr(f'Ultralytics YOLO v{__version__}')}")
     task, mode = cfg.task.lower(), cfg.mode.lower()
 
     # Special case for initializing the configuration
