@@ -1,4 +1,6 @@
-from hub import checks
-from engine.model import YOLO
-from utils import ops
-from . import v8
+__version__ = "8.0.0"
+
+from yolo.engine.model import YOLO
+from yolo.utils import ops
+
+__all__ = ["__version__", "YOLO", "checks"]
