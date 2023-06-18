@@ -1,4 +1,6 @@
-# yolov8-object-tracking
+# yolov8-object-tracking 
+#### [ultralytics==8.0.0]
+
 
 ### Features
 - Object Tracks
