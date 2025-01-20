@@ -7,10 +7,6 @@
 - Different Color for every track
 - Video/Image/WebCam/External Camera/IP Stream Supported
 
-### Coming Soon
-- Selection of specific class ID for tracking
-- Development of dashboard for YOLOv8
-
 ### 🙀 Train YOLOv8 on Custom Data
 - https://chr043416.medium.com/train-yolov8-on-custom-data-6d28cd348262
 
