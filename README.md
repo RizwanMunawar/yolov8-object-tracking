@@ -1,7 +1,6 @@
 # yolov8-object-tracking 
 
-ultralytics==8.0.0
-
+This will only work with `ultralytics==8.0.0`. However, I strongly recommend using the latest Ultralytics package and following the official Ultralytics code: [GitHub Repository](https://github.com/ultralytics/ultralytics/).
 
 [Train YOLOv8 on Custom Data](https://muhammadrizwanmunawar.medium.com/train-yolov8-on-custom-data-6d28cd348262)
 
