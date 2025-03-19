@@ -53,9 +53,9 @@ python yolo\v8\detect\detect_and_trk.py model=yolov8m.pt source=1 show=True
  </table>
 
 ### References
-- https://github.com/abewley/sort
 - https://github.com/ultralytics/ultralytics
-
+- https://github.com/abewley/sort
+- https://docs.ultralytics.com/
 
 **Some of my articles/research papers | Computer vision awesome resources for learning | How do I appear to the world? 🚀**
 
