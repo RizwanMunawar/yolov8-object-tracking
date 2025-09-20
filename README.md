@@ -22,7 +22,7 @@ cd yolov8-object-tracking
 pip install ultralytics==8.0.0
 ```
 
-- Do Tracking with the mentioned command below
+- Do tracking with the mentioned command below
 ```bash
 #video file
 python yolo\v8\detect\detect_and_trk.py model=yolov8s.pt source="test.mp4" show=True
@@ -37,7 +37,7 @@ python yolo\v8\detect\detect_and_trk.py model=yolov8m.pt source=0 show=True
 python yolo\v8\detect\detect_and_trk.py model=yolov8m.pt source=1 show=True
 ```
 
-- Output file will be created in the working-dir/runs/detect/train with original filename
+- Output file will be created in the `runs/detect/train` with the original filename
 
 
 ### Results
