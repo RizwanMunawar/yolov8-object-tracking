@@ -40,7 +40,7 @@ python yolo\v8\detect\detect_and_trk.py model=yolov8m.pt source=1 show=True
 - Output file will be created in the `runs/detect/train` with the original filename
 
 
-### Results
+### Results 📊
 <table>
   <tr>
     <td>YOLOv8s Object Tracking</td>
@@ -52,10 +52,10 @@ python yolo\v8\detect\detect_and_trk.py model=yolov8m.pt source=1 show=True
   </tr>
  </table>
 
-### References
-- https://github.com/ultralytics/ultralytics
-- https://github.com/abewley/sort
-- https://docs.ultralytics.com/
+### References 🔗
+- 🔗 https://github.com/ultralytics/ultralytics
+- 🔗 https://github.com/abewley/sort
+- 🔗 https://docs.ultralytics.com/
 
 **Some of my articles/research papers | Computer vision awesome resources for learning | How do I appear to the world? 🚀**
 
