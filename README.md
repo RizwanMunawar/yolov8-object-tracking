@@ -2,7 +2,7 @@
 
 This is compatible only with `ultralytics==8.0.0`. However, I highly recommend using the latest version of the Ultralytics package and referring to the official Ultralytics codebase here: [GitHub Repository](https://github.com/ultralytics/ultralytics/).
 
-[Train YOLOv8 on Custom Data](https://muhammadrizwanmunawar.medium.com/train-yolov8-on-custom-data-6d28cd348262)
+[![Static Badge](https://img.shields.io/badge/yolov8-blog-blue)](https://muhammadrizwanmunawar.medium.com/train-yolov8-on-custom-data-6d28cd348262)
 
 ### Steps to run Code
 
