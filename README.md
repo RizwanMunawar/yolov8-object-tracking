@@ -52,6 +52,11 @@ python yolo\v8\detect\detect_and_trk.py model=yolov8m.pt source=1 show=True
   </tr>
  </table>
 
+### Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=RizwanMunawar/yolov8-object-tracking&type=date&legend=top-left)](https://www.star-history.com/#RizwanMunawar/yolov8-object-tracking&type=date&legend=top-left)
+
+
 ### References 🔗
 - 🔗 https://github.com/ultralytics/ultralytics
 - 🔗 https://github.com/abewley/sort
